@@ -27775,6 +27775,18 @@ li,ol,ul{
     margin-right: .17rem;
     vertical-align: middle;
 }
+.shengchengmark{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 1.2em;
+    background: #04be02;
+    border: none;
+    display: none;
+}
 .addstepfour{
     display: none;
     margin-bottom: 4rem;
@@ -27902,26 +27914,28 @@ li,ol,ul{
     font-size: 1.145rem;
 }
 .markform .l input::-webkit-input-placeholder {
-    color: #666
+    color: #666;
 }
 .markform .l input:-moz-placeholder,.markform .l input::-moz-placeholder {
-    color: #666
+    color: #666;
 }
 
 .markform .l input:-ms-input-placeholder {
-    color: #666
+    color: #666;
 }
 
 .markform .l.focus input::-webkit-input-placeholder {
-    color: #ababab
+    color: #ababab;
 }
 
 .markform .l.focus input:-moz-placeholder,.markform .l.focus input::-moz-placeholder {
-    color: #ababab
+    color: #ababab;
 }
-
+.markform .l.focus input{
+     color: #ababab;
+}
 .markform .l.focus input:-ms-input-placeholder {
-    color: #ababab
+    color: #ababab;
 }
 .create-mark {
     position: fixed;
@@ -27934,7 +27948,7 @@ li,ol,ul{
     background: #04be02;
     border: none;
 }
-.edit {
+.edit{
     box-shadow: 0 0 0 2px #333;
 }
 
